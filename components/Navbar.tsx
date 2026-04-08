@@ -10,6 +10,13 @@ const Navbar = () => {
 
             <span className="name">Plan2Render</span>
           </div>
+
+          <ul className="links">
+            <a href="#">Products</a>
+            <a href="#">Pricing</a>
+            <a href="#">Community</a>
+            <a href="#">Enterprise</a>
+          </ul>
         </div>
       </nav>
     </header>
