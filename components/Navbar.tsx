@@ -1,6 +1,8 @@
 import { Box } from "lucide-react";
 
 const Navbar = () => {
+  const handleAuthClick = async () => {};
+
   return (
     <header className="navbar">
       <nav className="inner">
@@ -17,6 +19,10 @@ const Navbar = () => {
             <a href="#">Community</a>
             <a href="#">Enterprise</a>
           </ul>
+        </div>
+
+        <div className="actions">
+          <button onClick={handleAuthClick}></button>
         </div>
       </nav>
     </header>
