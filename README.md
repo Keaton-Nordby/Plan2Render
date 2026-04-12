@@ -1,87 +1,67 @@
-# Welcome to React Router!
+🚀 Introduction
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This is an AI-powered architectural visualization platform that transforms 2D floor plans into photorealistic 3D renders using advanced AI models such as Claude and Gemini. Built as a modern SaaS application, it provides persistent cloud storage, serverless compute, and a global community feed for sharing architectural projects.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Users can upload floor plans, generate realistic 3D visualizations, compare outputs side-by-side, and manage all projects in a personal dashboard with permanent hosting and metadata tracking.
 
-## Features
+⚙️ Tech Stack
+React – Component-based UI library for building dynamic user interfaces
+TypeScript – Strongly typed JavaScript for scalable and maintainable code
+Vite – Fast frontend build tool and development server
+TailwindCSS – Utility-first CSS framework for rapid UI design
+Puter – Cloud OS providing serverless workers, KV storage, and file hosting
+Puter.js – JavaScript SDK for interacting with Puter cloud services
+Claude & Gemini AI – Power advanced image understanding and generation workflows
+🔋 Features
+🏗️ 2D → 3D AI Visualization
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Instantly convert architectural sketches and floor plans into photorealistic 3D renders using state-of-the-art AI models.
 
-## Getting Started
+☁️ Persistent Cloud Hosting
 
-### Installation
+Every project is permanently stored with public or private access links, ensuring your work is always available.
 
-Install the dependencies:
+🗂️ Dynamic Project Dashboard
 
-```bash
-npm install
-```
+Track, manage, and revisit all your generated visualizations with metadata persistence and fast retrieval.
 
-### Development
+🔄 Side-by-Side Comparison
 
-Start the development server with HMR:
+Compare original floor plans with AI-generated 3D outputs in a clean, interactive viewer.
 
-```bash
-npm run dev
-```
+🌍 Global Community Feed
 
-Your application will be available at `http://localhost:5173`.
+Share your architectural creations with a global audience and explore other users’ projects.
 
-## Building for Production
+🔐 Privacy Controls
 
-Create a production build:
+Control visibility of each project with public/private toggles and secure user-level ownership mapping.
 
-```bash
-npm run build
-```
+📦 Export Tools
 
-## Deployment
+Download and integrate renders into presentations, client pitches, or design workflows.
 
-### Docker Deployment
+🧠 How It Works
+Upload a 2D floor plan or sketch
+AI processes the input using Claude/Gemini models
+Serverless workers handle transformation logic
+Output is rendered as a photorealistic 3D visualization
+Result is stored in persistent cloud storage with metadata
+📁 Project Structure (Example)
+/src
+  /components
+  /pages
+  /lib
+  /services
+  /styles
+🌐 Future Improvements
+Real-time collaborative editing
+Improved lighting/material simulation
+AR/VR export support
+Enhanced architectural constraint modeling
 
-To build and run using Docker:
 
-```bash
-docker build -t my-app .
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+🙌 Credits
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+This project was inspired by and built with guidance from the amazing educational content provided by JS Mastery. Huge appreciation for their high-quality tutorials and resources that help developers build real-world, production-ready applications.
